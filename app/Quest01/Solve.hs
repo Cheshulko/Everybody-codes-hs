@@ -36,7 +36,7 @@ scoreGroup :: [Maybe Int] -> Int
 scoreGroup group = enemiesCount * max 0 (enemiesCount - 1) + sum (map (fromMaybe 0) group)
     where enemiesCount = length (filter isJust group)
 
-questPrefix = "app/Quest01/%s"
+questPrefix = "app/Quest01/input/%s"
 
 solve :: String -> IO ()
 solve part@"part1_sample" = solvePart part1 part
