@@ -11,8 +11,12 @@ extra-source-files: CHANGELOG.md
 executable Everybody-codes-hs
     main-is:          Main.hs
 
-    other-modules:    Quest01.Solve
-    build-depends:    base ^>=4.16.4.0
+    other-modules:    Quest01.Solve,
+                      Quest02.Solve
+    build-depends:    base ^>=4.16.4.0,
+                      containers,
+                      regex-tdfa,
+                      split
     hs-source-dirs:   app
     ghc-options:      -fno-ignore-asserts
    
