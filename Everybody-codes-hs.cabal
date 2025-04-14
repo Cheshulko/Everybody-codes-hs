@@ -12,8 +12,10 @@ executable Everybody-codes-hs
     main-is:          Main.hs
 
     other-modules:    Quest01.Solve,
-                      Quest02.Solve
+                      Quest02.Solve,
+                      Quest03.Solve
     build-depends:    base ^>=4.16.4.0,
+                      array,
                       containers,
                       regex-tdfa,
                       split
