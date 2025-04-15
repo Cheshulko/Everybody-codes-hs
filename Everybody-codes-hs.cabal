@@ -13,7 +13,8 @@ executable Everybody-codes-hs
 
     other-modules:    Quest01.Solve,
                       Quest02.Solve,
-                      Quest03.Solve
+                      Quest03.Solve,
+                      Quest04.Solve
     build-depends:    base ^>=4.16.4.0,
                       array,
                       containers,
