@@ -3,8 +3,8 @@
 module Quest02.Solve (solve) where
 
 import           Control.Exception
-import           Control.Monad     (when)
 import qualified Data.Foldable     as S
+import           Data.List
 import           Data.List.Split   (splitOn)
 import qualified Data.Set          as S
 import           Data.Tuple        (swap)
@@ -33,11 +33,6 @@ parseInput filePath = do
    let texts' = lines texts
 
    return (runes', texts')
-
-transpose :: [String] -> [String]
-transpose []        = []
-transpose ([] : xs) = transpose xs
-transpose xs        = map head xs : transpose (map tail xs)
 
 runesInText :: String -> String -> [(Int, String)]
 runesInText text pattern  = findMatches text 0
