@@ -16,13 +16,16 @@ executable Everybody-codes-hs
                       Quest03.Solve,
                       Quest04.Solve,
                       Quest05.Solve,
-                      Quest06.Solve
+                      Quest06.Solve,
+                      Quest07.Solve
     build-depends:    base ^>=4.16.4.0,
                       array,
                       containers,
                       regex-tdfa,
-                      split
+                      split,
+                      parallel
     hs-source-dirs:   app
     ghc-options:      -fno-ignore-asserts
+                      -threaded
    
     default-language: Haskell2010
