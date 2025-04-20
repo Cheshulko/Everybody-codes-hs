@@ -16,7 +16,6 @@ solve part@"part1_sample" = solvePart part1 part
 solve part@"part1"        = solvePart part1 part
 solve part@"part2_sample" = solvePart part2 part
 solve part@"part2"        = solvePart part2 part
-solve part@"part3_sample" = solvePart part3 part
 solve part@"part3"        = solvePart part3 part
 solve "test"              = test
 
