@@ -18,7 +18,8 @@ executable Everybody-codes-hs
                       Quest05.Solve,
                       Quest06.Solve,
                       Quest07.Solve,
-                      Quest08.Solve
+                      Quest08.Solve,
+                      Quest09.Solve
     build-depends:    base ^>=4.16.4.0,
                       array,
                       containers,
