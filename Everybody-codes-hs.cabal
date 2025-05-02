@@ -24,7 +24,8 @@ executable Everybody-codes-hs
                       Quest11.Solve,
                       Quest12.Solve,
                       Quest13.Solve,
-                      Quest14.Solve
+                      Quest14.Solve,
+                      Quest15.Solve
     build-depends:    base ^>=4.16.4.0,
                       array,
                       containers,
