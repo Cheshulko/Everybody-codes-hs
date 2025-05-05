@@ -18,7 +18,7 @@
 | [Quest 14](app/Quest14/Solve.hs): The House of Palms             | 	&#x2705;  | 	&#x2705;  | 	&#x2705;  |
 | [Quest 15](app/Quest15/Solve.hs): From the Herbalist's Diary     | 	&#x2705;  | 	&#x2705;  | 	&#x2705;  |
 | [Quest 16](app/Quest16/Solve.hs): Cat Grin of Fortune            | 	&#x2705;  | 	&#x2705;  | 	&#x2705;  |
-| Quest 17: Galactic Geometry              | TBD  | TBD  | TBD  |
+| [Quest 17](app/Quest17/Solve.hs): Galactic Geometry              | 	&#x2705;  | 	&#x2705;  | 	&#x2705;  |
 | Quest 18: The Ring                       | TBD  | TBD  | TBD  |
 | Quest 19: Encrypted Duck                 | TBD  | TBD  | TBD  |
 | Quest 20: Gliding Finale                 | TBD  | TBD  | TBD  |
