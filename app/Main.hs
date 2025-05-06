@@ -21,6 +21,7 @@ import qualified Quest14.Solve      as Q14
 import qualified Quest15.Solve      as Q15
 import qualified Quest16.Solve      as Q16
 import qualified Quest17.Solve      as Q17
+import qualified Quest18.Solve      as Q18
 
 solve :: String -> String -> IO ()
 solve "quest01" part = Q01.solve part
@@ -40,6 +41,7 @@ solve "quest14" part = Q14.solve part
 solve "quest15" part = Q15.solve part
 solve "quest16" part = Q16.solve part
 solve "quest17" part = Q17.solve part
+solve "quest18" part = Q18.solve part
 
 solve quest part     = printf "Wrong input: quest=`%s` part=`%s`\n" quest part
 
