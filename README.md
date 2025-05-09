@@ -20,5 +20,5 @@
 | [Quest 16](app/Quest16/Solve.hs): Cat Grin of Fortune             | 	&#x2705;  | 	&#x2705;  | 	&#x2705;  |
 | [Quest 17](app/Quest17/Solve.hs): Galactic Geometry               | 	&#x2705;  | 	&#x2705;  | 	&#x2705;  |
 | [Quest 18](app/Quest18/Solve.hs): The Ring                        | 	&#x2705;  | 	&#x2705;  | 	&#x2705;  |
-| Quest 19: Encrypted Duck                 | TBD  | TBD  | TBD  |
+| [Quest 19](app/Quest19/Solve.hs): Encrypted Duck                  | 	&#x2705;  | 	&#x2705;  | 	&#x2705;  |
 | Quest 20: Gliding Finale                 | TBD  | TBD  | TBD  |
